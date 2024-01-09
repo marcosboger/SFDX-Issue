@@ -1,0 +1,1 @@
+sfdx force:source:deploy --ignorewarnings --wait 60 --verbose --json --apiversion 56.0 --targetusername <username> --manifest ./manifest/package.xml --testlevel NoTestRun

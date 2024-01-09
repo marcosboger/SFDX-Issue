@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Users_Shared_With_Admins</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>sharing users for all admins to view and modify</description>
+        <label>Users Shared With Admins</label>
+        <sharedTo>
+            <role>CEO</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Username</field>
+            <operation>notEqual</operation>
+            <value>Testing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Users_Shared_With_Admins_Based_On_Roles</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Users Shared With Admins Based On Roles</label>
+        <sharedTo>
+            <role>NorthAmerica</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Username</field>
+            <operation>notEqual</operation>
+            <value>Testing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+        <sharingCriteriaRules>
+        <fullName>Users_Shared_With_Admins_Based_On_Roles_New</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Users Shared With Admins Based On Roles</label>
+        <sharedTo>
+            <role>Admin</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Username</field>
+            <operation>notEqual</operation>
+            <value>Testing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>
