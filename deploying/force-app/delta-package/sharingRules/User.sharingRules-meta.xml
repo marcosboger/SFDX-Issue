@@ -15,32 +15,4 @@
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
-    <sharingCriteriaRules>
-        <fullName>Users_Shared_With_Admins_Based_On_Roles</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>Users Shared With Admins Based On Roles</label>
-        <sharedTo>
-            <role>NorthAmerica</role>
-        </sharedTo>
-        <criteriaItems>
-            <field>Username</field>
-            <operation>notEqual</operation>
-            <value>Testing</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-        <sharingCriteriaRules>
-        <fullName>Users_Shared_With_Admins_Based_On_Roles_New</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>Users Shared With Admins Based On Roles</label>
-        <sharedTo>
-            <role>Admin</role>
-        </sharedTo>
-        <criteriaItems>
-            <field>Username</field>
-            <operation>notEqual</operation>
-            <value>Testing</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
 </SharingRules>
