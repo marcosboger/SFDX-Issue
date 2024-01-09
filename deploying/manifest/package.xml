@@ -6,8 +6,6 @@
     </types>
     <types>
         <members>User.Users_Shared_With_Admins</members>
-        <members>User.Users_Shared_With_Admins_Based_On_Roles</members>
-        <members>User.Users_Shared_With_Admins_Based_On_Roles_New</members>
         <name>SharingCriteriaRule</name>
     </types>
     <types>
